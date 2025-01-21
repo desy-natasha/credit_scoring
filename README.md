@@ -1,52 +1,27 @@
 # Credit Scoring Prototype
 
 ## Overview
-This project is a credit scoring prototype that leverages data analysis and machine learning techniques. It demonstrates the process of loading and preprocessing data, performing exploratory data analysis (EDA), and building predictive models.
+This is a credit scoring model that compares the performance of two machine learning algorithm: Logistic Regression and Random Forest. The process includes data preprocessing, exploratory data analysis (EDA), and hyperparameter tuning.
 
-<!-- ## Folder Structure
-The project is organized as follows:
-
-```
-credit-scoring-prototype/
-├── notebooks/
-│   └── credit_scoring_demo.ipynb   # Original Jupyter notebook
-├── src/
-│   ├── data_processing.py          # Data loading and preprocessing script
-│   ├── eda.py                      # Exploratory Data Analysis script
-│   ├── modeling.py                 # Model training and evaluation script
-├── tests/                          # Directory for unit tests (empty for now)
-├── data/                           # Directory for datasets (add your dataset here)
-├── README.md                       # Project overview and usage instructions
-``` -->
-
-## Requirements
-To run this project, ensure the following dependencies are installed:
-
-- Python 3.8 or later
+## Installation
+- Python 3.8
 - pandas
 - numpy
 - seaborn
 - matplotlib
 - scikit-learn
 
-Install all dependencies using the following command:
+Clone this repository and install required packages:
 ```bash
 pip install -r requirements.txt
 ```
 
 ## Usage
 
-### 1. Clone the Repository
-Clone the repository to your local machine:
-```bash
-git clone https://github.com/your-username/credit-scoring-prototype.git
-cd credit-scoring-prototype
-```
+### 1. Dataset Preparation
+Ensure the dataset can be found in `[ROOT_DIR]/credit_scoring/data`
 
-### 2. Prepare the Dataset
-Add your dataset to the `data/` directory. Ensure the dataset is in the appropriate format (e.g., Excel or CSV).
-
-### 3. Run the Scripts
+### 2. Run the Scripts
 
 - **Data Preprocessing**:
   ```bash
@@ -58,21 +33,11 @@ Add your dataset to the `data/` directory. Ensure the dataset is in the appropri
   ```
 - **Model Training and Evaluation**:
   ```bash
-  python src/modeling.py
+  python src/model.py
   ```
 
-### 4. View the Notebook
-Open the Jupyter notebook in the `notebooks/` directory for an end-to-end demonstration:
+### 3. Model Training
+Credit scoring model training will be performed in the `[ROOT_DIR]/credit_scoring/notebook`:
 ```bash
-jupyter notebook notebooks/credit_scoring_demo.ipynb
+jupyter notebook notebook/credit-scoring-prototype.ipynb
 ```
-<!-- 
-## Contribution
-Contributions are welcome! Please fork the repository and create a pull request with detailed information about your changes.
-
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
----
-
-Developed as part of a credit scoring project to demonstrate applied data science and machine learning skills. -->
